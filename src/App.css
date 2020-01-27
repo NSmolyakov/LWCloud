@@ -1,0 +1,26 @@
+/* Global Styles */
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 59px;
+  letter-spacing: 0.01em;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 41px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: #C4C4C4;
+}
