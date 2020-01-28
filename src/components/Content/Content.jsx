@@ -8,7 +8,8 @@ import Trade from './Trade/Trade';
 import Stock from './Stock/Stock';
 import Structure from './Structure/Structure';
 import Reports from './Reports/Reports';
-import Account from'./Account/Account';
+import Account from './Account/Account';
+import NotFound from './404/NotFound'
 
 import './Content.css'
 
@@ -34,6 +35,9 @@ function Content(){
         </Route>
         <Route exact path="/account">
           <Account />
+        </Route>
+        <Route path="*">
+          <NotFound  />
         </Route>
     </Switch>
     </div>
