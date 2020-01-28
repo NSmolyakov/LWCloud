@@ -1,0 +1,14 @@
+.Breadcrumbs{
+    margin-top: 36px;
+    margin-bottom: 48px;
+}
+
+.Breadcrumbs a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    text-decoration: none;
+
+    color: #6694C6;
+}
