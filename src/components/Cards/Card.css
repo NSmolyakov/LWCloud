@@ -1,0 +1,66 @@
+.Card {
+    width:320px;
+    height:100px;
+    background: #fff;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: relative;
+}
+.Card:hover {
+    animation: CardAnim 12s ease-in 1;
+    cursor: pointer;
+}
+
+.Ellipse {
+    position: absolute;
+    top: 22px;
+    left:24px;
+}
+.ListZakazov{
+    position: absolute;
+    top:34px;
+    left:38px;
+}
+
+.CardTitle{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+
+    color: #61A8FA;
+
+    position: absolute;
+    top: 10px;
+    left: 101px;
+}
+
+.CardDiscription{
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+
+    color: #777777;
+
+    position: absolute;
+    top: 36px;
+    left: 101px;
+}
+
+@keyframes CardAnim {
+    from {
+        transform: rotate(0);
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+
+    } 5% {
+        box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.15);
+        background: #eff3f8;
+    } to {
+        box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.15);
+        background: #eff3f8;
+    }
+}
