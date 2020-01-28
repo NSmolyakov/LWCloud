@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import TopNav from './components/TopNav/TopNav'
+import TopNav from './components/TopNav/TopNav';
 import Main from './components/Content/Main/Main';
 import Trade from './components/Content/Trade/Trade';
 import Stock from './components/Content/Stock/Stock';
