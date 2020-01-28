@@ -5,12 +5,15 @@ import './Card.css'
 
 
 function Card(){
-    return(<div className='Card'>
+    return(
+    <a href='/indev'>
+    <div className='Card'>
         <img src={Ellipse} className='Ellipse' alt='Ellipse'></img>
         <img src={ListZakazov} className='ListZakazov' alt='ListZakazov'></img>
         <p className='CardTitle'>Листы заказов</p>
         <p className='CardDiscription'>просмотреть лист заказов </p>
-    </div>)
+    </div>
+    </a>)
 }
 
 export default Card

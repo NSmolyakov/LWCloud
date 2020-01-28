@@ -10,6 +10,7 @@ import Structure from './Structure/Structure';
 import Reports from './Reports/Reports';
 import Account from './Account/Account';
 import NotFound from './404/NotFound'
+import InDevelopment from './InDevelopment/InDevelopment'
 
 import './Content.css'
 
@@ -35,6 +36,9 @@ function Content(){
         </Route>
         <Route exact path="/account">
           <Account />
+        </Route>
+        <Route exact path="/indev">
+          <InDevelopment />
         </Route>
         <Route path="*">
           <NotFound  />
