@@ -4,6 +4,11 @@
     grid-row-gap: 50px;
 }
 
+.Reports h1{
+    line-height: 64px;
+    border-bottom: 1px solid #AAAAAA;
+}
+
 .Reports h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;

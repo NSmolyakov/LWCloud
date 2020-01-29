@@ -10,7 +10,7 @@ function Card(){
     <div className='Card'>
         <img src={Ellipse} className='Ellipse' alt='Ellipse'></img>
         <img src={ListZakazov} className='ListZakazov' alt='ListZakazov'></img>
-        <p className='CardTitle'>Листы заказов</p>
+        <p className='CardTitle link'>Листы заказов</p>
         <p className='CardDiscription'>просмотреть лист заказов </p>
     </div>
     </a>)

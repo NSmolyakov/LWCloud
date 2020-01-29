@@ -1,0 +1,60 @@
+.Account h1{
+    line-height: 64px;
+    border-bottom: 1px solid #AAAAAA;
+}
+
+.Account h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 0px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.AccountWrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr;
+    grid-gap: 40px;
+    align-content: center;
+    margin-bottom: 50px;
+}
+
+.Photo img {
+    padding-top: 24px;
+}
+
+.AccountRole {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+}
+
+.Place{
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #777777;
+}
+
+.Place::before {
+    content: url(../../../assets/img/Place.svg);
+    padding-right: 8px;
+}
+
+.Balance {
+    text-align: center;
+}
+
+.BalanceWrapper{
+   margin-top: 40px;
+}
+
+
+.AccountExit {
+    margin-top: 80px;
+}

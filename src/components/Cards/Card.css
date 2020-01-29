@@ -23,15 +23,6 @@
 }
 
 .CardTitle{
-    font-family: Roboto;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.01em;
-    text-transform: uppercase;
-
-    color: #61A8FA;
-
     position: absolute;
     top: 10px;
     left: 101px;
