@@ -29,11 +29,11 @@
 }
 
 .CardDiscription{
-    font-family: Roboto;
     font-style: italic;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
+    max-width: 200px;
 
     color: #777777;
 

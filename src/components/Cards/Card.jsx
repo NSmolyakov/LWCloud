@@ -4,14 +4,14 @@ import ListZakazov from '../../assets/img/Cards/ListZakazov.svg'
 import './Card.css'
 
 
-function Card(){
+function Card(props){
     return(
     <a href='/indev'>
     <div className='Card'>
         <img src={Ellipse} className='Ellipse' alt='Ellipse'></img>
         <img src={ListZakazov} className='ListZakazov' alt='ListZakazov'></img>
-        <p className='CardTitle link'>Листы заказов</p>
-        <p className='CardDiscription'>просмотреть лист заказов </p>
+        <p className='CardTitle link'> {props.name}</p>
+        <p className='CardDiscription'> {props.discription} </p>
     </div>
     </a>)
 }
