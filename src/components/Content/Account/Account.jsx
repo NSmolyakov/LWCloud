@@ -1,6 +1,6 @@
 import React from 'react'
 import AccountPhoto from '../../../assets/img/photo.png'
-import CardGrid from '../../Cards/CardGrid'
+import AccountCardGrid from '../../Cards/CardGrids/AccountCardGrid'
 import './Account.css'
 
 function Account() {
@@ -16,7 +16,7 @@ function Account() {
                 </div>
             </div>
 
-            <CardGrid />
+            <AccountCardGrid />
 
             <div className='AccountExit'> <p className='redlink'>Выйти из аккаунта</p></div>
            

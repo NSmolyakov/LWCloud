@@ -1,10 +1,10 @@
 import React from 'react'
-import CardGrid from '../../Cards/CardGrid'
+import StockCardGrid from '../../Cards/CardGrids/StockCardGrid'
 
 function Stock() {
     return(<>
     <h1>Склад</h1>
-    <CardGrid />
+    <StockCardGrid />
     </>)
 }
 

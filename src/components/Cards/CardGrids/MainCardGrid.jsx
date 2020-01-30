@@ -1,13 +1,13 @@
 import React from 'react'
-import Card from './Card'
+import Card from '../Card'
 import './CardGrid.css'
 
-function CardGrid(props){
+function MainCardGrid(props){
     return(
     <div className='CardGrid'>
         <Card name='Лист Заказов' discription ='просмотреть лист заказов'/>
-        <Card name='Оформить  заказ'  discription ='просмотреть лист заказов'/>
-        <Card name='Отчёт директоров'  discription ='просмотреть лист заказов'/>
+        <Card name='Оформить заказ'  discription ='перейти к оформлению заказа в программе'/>
+        <Card name='Отчёт директоров'  discription ='просмотреть отчёт директоров'/>
         <Card name='Регистрация' discription ='Зарегистрировать нового партнёра'/>
         <Card name='Запросить товар'  discription ='Запросить товар с оптового склада'/>
         <Card name='Учёт товаров' discription ='Завести или списать товары в программе'/>
@@ -17,4 +17,4 @@ function CardGrid(props){
     )
 }
 
-export default CardGrid
+export default MainCardGrid

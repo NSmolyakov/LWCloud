@@ -1,5 +1,5 @@
 import React from 'react'
-import CardGrid from '../../Cards/CardGrid'
+import CardGrid from '../../Cards/CardGrids/MainCardGrid'
 
 
 function Main() {
