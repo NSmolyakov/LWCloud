@@ -11,7 +11,7 @@ const Reports = lazy(() => import('./Reports/Reports'));
 const Account = lazy(() => import('./Account/Account'));
 const NotFound = lazy(() => import('./404/NotFound'));
 const InDevelopment = lazy(() => import('./InDevelopment/InDevelopment'));
-
+const Notifications = lazy(() => import('./Notifications/Notifications'));
 
 function Content(){
     return(
@@ -25,6 +25,7 @@ function Content(){
                     <Route exact path="/structure" component={Structure}/> 
                     <Route exact path="/reports" component={Reports}/> 
                     <Route exact path="/account" component={Account}/> 
+                    <Route exact path="/notifications" component={Notifications}/> 
                     <Route exact path="/indev" component={InDevelopment}/> 
                     <Route exact path="*" component={NotFound}/> 
                   </Switch>

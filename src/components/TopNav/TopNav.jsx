@@ -40,7 +40,7 @@ function TopNav() {
             </div>
 
             <div className='NavBtns'>
-                <img src={Notification} alt='Notification'></img>
+                <NavLink to='/notifications'> <img src={Notification} alt='Notification'></img></NavLink>
                 <img src={More} alt='More' className='More'></img>
                 <img className='MobMenu' src={Menu} alt='menu'></img>
             </div>
