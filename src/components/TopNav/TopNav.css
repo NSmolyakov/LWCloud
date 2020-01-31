@@ -71,6 +71,15 @@
     padding-left: 36px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+    .Logo{
+        margin-right: 60px;
+    }
+    .Navigation {
+        margin-right: 16px;
+    }
+}
+
 
 @media screen and (max-width:768px) {
     .MobMenu{

@@ -2,3 +2,10 @@
     width:1020px;
     margin: 0 auto;
 }
+
+@media screen and (max-width:1020px){
+    .Content{
+        width:100%;
+        margin-left:16px;
+    }
+}
