@@ -10,6 +10,11 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
 }
 
+
+.MobMenu{
+    display: none;
+}
+
 .Logo {
     grid-area:'lg';
     margin-top: 18px;
@@ -64,4 +69,20 @@
 
 .NavBtns img{
     padding-left: 36px;
+}
+
+
+@media screen and (max-width:768px) {
+    .MobMenu{
+        display: inline-block;
+    }
+    .Navigation{
+        display: none;
+    }
+    .More{
+        display: none;
+    }
+    .Logo {
+        margin-right: 0;
+    }
 }

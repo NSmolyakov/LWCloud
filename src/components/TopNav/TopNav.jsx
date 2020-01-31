@@ -8,6 +8,7 @@ import Structure from '../../assets/img/Structure.svg'
 import Reports from '../../assets/img/Reports.svg'
 import Account from '../../assets/img/Account.svg'
 import More from '../../assets/img/More.svg'
+import Menu from '../../assets/img/Burger.svg'
 import './TopNav.css'
 
 
@@ -40,7 +41,8 @@ function TopNav() {
 
             <div className='NavBtns'>
                 <img src={Notification} alt='Notification'></img>
-                <img src={More} alt='More'></img>
+                <img src={More} alt='More' className='More'></img>
+                <img className='MobMenu' src={Menu} alt='menu'></img>
             </div>
         </div>
     )

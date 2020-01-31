@@ -40,3 +40,9 @@
     padding-right:8px;
 
 }
+
+@media screen and (max-width:768px) {
+    .ReportsWrapper{
+        grid-template-columns: 1fr;
+    }
+}
