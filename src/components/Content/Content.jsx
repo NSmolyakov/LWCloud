@@ -1,49 +1,34 @@
-import React from 'react'
+import React, { Suspense, lazy } from 'react';
 import {Switch, Route} from "react-router-dom";
+import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
+import './Content.css';
 
-import Main from './Main/Main';
-import Breadcrumbs from '../Breadcrumbs/Breadcrumbs'
+const Main = lazy(() => import('./Main/Main'));
+const Trade = lazy(() => import('./Trade/Trade'));
+const Stock = lazy(() => import('./Stock/Stock'));
+const Structure = lazy(() => import('./Structure/Structure'));
+const Reports = lazy(() => import('./Reports/Reports'));
+const Account = lazy(() => import('./Account/Account'));
+const NotFound = lazy(() => import('./404/NotFound'));
+const InDevelopment = lazy(() => import('./InDevelopment/InDevelopment'));
 
-import Trade from './Trade/Trade';
-import Stock from './Stock/Stock';
-import Structure from './Structure/Structure';
-import Reports from './Reports/Reports';
-import Account from './Account/Account';
-import NotFound from './404/NotFound'
-import InDevelopment from './InDevelopment/InDevelopment'
-
-import './Content.css'
 
 function Content(){
     return(
         <div className='Content'>
             <Breadcrumbs />
-        <Switch>    
-        <Route exact path="/">
-          <Main />
-        </Route>
-        <Route exact path="/trade">
-          <Trade />
-        </Route>
-        <Route exact path="/stock">
-          <Stock />
-        </Route>
-        <Route exact path="/structure">
-          <Structure />
-        </Route>
-        <Route exact path="/reports">
-          <Reports />
-        </Route>
-        <Route exact path="/account">
-          <Account />
-        </Route>
-        <Route exact path="/indev">
-          <InDevelopment />
-        </Route>
-        <Route path="*">
-          <NotFound  />
-        </Route>
-    </Switch>
+              <Suspense fallback={<h3>Загрузка...</h3>}>
+                  <Switch>   
+                    <Route exact path="/" component={Main}/> 
+                    <Route exact path="/trade" component={Trade}/> 
+                    <Route exact path="/stock" component={Stock}/> 
+                    <Route exact path="/structure" component={Structure}/> 
+                    <Route exact path="/reports" component={Reports}/> 
+                    <Route exact path="/account" component={Account}/> 
+                    <Route exact path="/indev" component={InDevelopment}/> 
+                    <Route exact path="*" component={NotFound}/> 
+                  </Switch>
+              </Suspense>
     </div>
     )
 }

@@ -3,7 +3,7 @@ import InDev from'../../../assets/img/InDev.svg'
 import './InDevelopment.css'
 
 function InDevelopment() {
-    return (<div className='NotFound'>
+    return (<div className='InDev'>
             <img src={InDev} alt='InDev' ></img>
             <h1>Страница находится в разработке</h1>
 
