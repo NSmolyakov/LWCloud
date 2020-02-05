@@ -12,6 +12,7 @@ const Account = lazy(() => import('./Account/Account'));
 const NotFound = lazy(() => import('./404/NotFound'));
 const InDevelopment = lazy(() => import('./InDevelopment/InDevelopment'));
 const Notifications = lazy(() => import('./Notifications/Notifications'));
+const OrderList = lazy(() => import('./OrderList/OrderList'));
 
 function Content(){
     return(
@@ -27,6 +28,8 @@ function Content(){
                     <Route exact path="/account" component={Account}/> 
                     <Route exact path="/notifications" component={Notifications}/> 
                     <Route exact path="/indev" component={InDevelopment}/> 
+
+                    <Route exact path="/orders_list" component={OrderList}/>
                     <Route exact path="*" component={NotFound}/> 
                   </Switch>
               </Suspense>
