@@ -2,6 +2,7 @@ import React, { Suspense, lazy } from 'react';
 import {Switch, Route} from "react-router-dom";
 import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
 import './Content.css';
+import PreLoader from '../../assets/img/PreLoader/PreLoader.svg'
 
 const Main = lazy(() => import('./Main/Main'));
 const Trade = lazy(() => import('./Trade/Trade'));
@@ -18,7 +19,7 @@ function Content(){
     return(
         <div className='Content'>
             <Breadcrumbs />
-              <Suspense fallback={<h3>Загрузка...</h3>}>
+              <Suspense fallback={<div><img src={PreLoader} alt='Загрузка'></img></div>}>
                   <Switch>   
                     <Route exact path="/" component={Main}/> 
                     <Route exact path="/trade" component={Trade}/> 
@@ -30,6 +31,7 @@ function Content(){
                     <Route exact path="/indev" component={InDevelopment}/> 
 
                     <Route exact path="/orders_list" component={OrderList}/>
+                    
                     <Route exact path="*" component={NotFound}/> 
                   </Switch>
               </Suspense>
