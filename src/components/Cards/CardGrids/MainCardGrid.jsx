@@ -5,14 +5,14 @@ import './CardGrid.css'
 function MainCardGrid(props){
     return(
     <div className='CardGrid'>
-        <Card name='Лист Заказов' discription ='просмотреть лист заказов'/>
-        <Card name='Оформить заказ'  discription ='перейти к оформлению заказа в программе'/>
-        <Card name='Отчёт директоров'  discription ='просмотреть отчёт директоров'/>
-        <Card name='Регистрация' discription ='Зарегистрировать нового партнёра'/>
-        <Card name='Запросить товар'  discription ='Запросить товар с оптового склада'/>
-        <Card name='Учёт товаров' discription ='Завести или списать товары в программе'/>
-        <Card name='Передача бонусов' discription ='Передать бонусы дистрибьюторам моей структуры'/>
-        <Card name='Список дистрибьюторов' discription ='просмотреть список дистрибьюторов структуры'/>
+        <Card name='Лист Заказов' discription ='просмотреть лист заказов' link='/orders_list'/>
+        <Card name='Оформить заказ'  discription ='перейти к оформлению заказа в программе' link='/order'/>
+        <Card name='Отчёт директоров'  discription ='просмотреть отчёт директоров' link='/directors_report'/>
+        <Card name='Регистрация' discription ='Зарегистрировать нового партнёра' link='/partner_registration' />
+        <Card name='Запросить товар'  discription ='Запросить товар с оптового склада' link='/items_request' />
+        <Card name='Учёт товаров' discription ='Завести или списать товары в программе'link='/items_accounting' />
+        <Card name='Передача бонусов' discription ='Передать бонусы дистрибьюторам моей структуры' link='/bonus_transfers' />
+        <Card name='Список дистрибьюторов' discription ='просмотреть список дистрибьюторов структуры' link='/distributors_list' />
     </div>
     )
 }
