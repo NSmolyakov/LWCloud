@@ -25,6 +25,10 @@ h4 {
   color: #C4C4C4;
 }
 
+a {
+  text-decoration: none;
+}
+
 p {
   font-family: 'Roboto', sans-serif;
 }
@@ -50,6 +54,37 @@ button:hover {
   background: #5E77FF;
 }
 
+label {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+
+  text-transform: uppercase;
+
+  color: #4A4A4A;
+}
+
+input {
+  min-width: 325px;
+  min-height: 40px;
+  background: #EFF3F8;
+  border: 1px solid #6694C6;
+  border-radius: 4px;
+  
+}
+
+::placeholder {
+  padding-left: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #777777;
+}
+
 .link {
   font-family: Roboto;
   font-weight: bold;
@@ -72,3 +107,4 @@ button:hover {
 
   color: #D05C3E;
 }
+

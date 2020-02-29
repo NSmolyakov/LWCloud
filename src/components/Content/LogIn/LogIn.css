@@ -1,0 +1,42 @@
+.login{
+    width:1020px;
+    margin: 0 auto;
+}
+
+.formField{
+    margin-top: 132px;
+    min-width: 433px;
+    min-height: 462px;
+    background: url(../../../assets/img/formfield.svg) no-repeat;
+}
+
+.formContent{
+    padding-top: 30px;
+    padding-left: 54px;
+}
+
+.loginImg{
+    margin-left: 640px;
+}
+
+
+.login input {
+    margin-bottom: 24px;
+}
+
+.login button {
+    margin-bottom: 20px;
+}
+
+.login p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+
+    color: #777777;
+}
+
+.loginImg img{
+    margin-top: -200px;
+}

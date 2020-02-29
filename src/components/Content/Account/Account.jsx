@@ -2,6 +2,7 @@ import React from 'react'
 import AccountPhoto from '../../../assets/img/photo.png'
 import AccountCardGrid from '../../Cards/CardGrids/AccountCardGrid'
 import './Account.css'
+import { NavLink } from 'react-router-dom'
 
 function Account() {
     return(<div className='Account'>
@@ -18,7 +19,7 @@ function Account() {
 
             <AccountCardGrid />
 
-            <div className='AccountExit'> <p className='redlink'>Выйти из аккаунта</p></div>
+           <div className='AccountExit'>  <NavLink to='/login'><p className='redlink'>Выйти из аккаунта</p></NavLink></div>
            
         </div>
     

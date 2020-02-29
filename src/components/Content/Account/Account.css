@@ -14,6 +14,7 @@
     color: #000000;
 }
 
+
 .AccountWrapper {
     display: grid;
     grid-template-columns: 1fr 4fr 2fr;
@@ -58,3 +59,4 @@
 .AccountExit {
     margin-top: 80px;
 }
+
