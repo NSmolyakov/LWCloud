@@ -1,21 +1,21 @@
-.login{
-    width:1020px;
+.login {
+    width: 1020px;
     margin: 0 auto;
 }
 
-.formField{
+.formField {
     margin-top: 132px;
     min-width: 433px;
     min-height: 462px;
     background: url(../../../assets/img/formfield.svg) no-repeat;
 }
 
-.formContent{
+.formContent {
     padding-top: 30px;
     padding-left: 54px;
 }
 
-.loginImg{
+.loginImg {
     margin-left: 640px;
 }
 
@@ -37,6 +37,16 @@
     color: #777777;
 }
 
-.loginImg img{
+.loginImg img {
     margin-top: -200px;
+}
+
+@media screen and (max-width:768px) {
+    .loginImg {
+        display: none;
+    }
+    .formContent {
+        padding-top: 25px;
+        padding-left: 14px;
+    }
 }

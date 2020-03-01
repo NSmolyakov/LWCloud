@@ -70,8 +70,7 @@ input {
   min-height: 40px;
   background: #EFF3F8;
   border: 1px solid #6694C6;
-  border-radius: 4px;
-  
+  border-radius: 4px; 
 }
 
 ::placeholder {

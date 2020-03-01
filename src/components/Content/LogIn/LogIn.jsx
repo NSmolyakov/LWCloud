@@ -12,7 +12,7 @@ function LogIn (){
           <label>
             Номер договора:
             <br />
-            <input type="text" name="Number" placeholder='Введите № договора' maxlength='12' />
+            <input type="text" name="Number" placeholder='Введите № договора' maxLength='12' />
           </label>
           <br />
           <label>
