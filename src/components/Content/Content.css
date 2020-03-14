@@ -1,18 +1,17 @@
 .Content {
-    width:1020px;
+    width: 1020px;
     margin: 0 auto;
 }
 
-@media screen and (max-width:1020px){
-    .Content{
-        width:100%;
-        margin-left:8px;
+@media screen and (max-width:1020px) {
+    .Content {
+        width: 100%;
+        margin-left: 8px;
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .Content {
         margin-top: 30px;
     }
 }
-

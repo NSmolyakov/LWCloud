@@ -1,10 +1,10 @@
-.CardGrid{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-row-gap: 20px;
-    grid-column-gap: 31px;
+.CardGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 20px;
+  grid-column-gap: 31px;
 
-    animation: CardStart 1s 1;
+  animation: CardStart 1s 1;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1020px) {
@@ -17,7 +17,7 @@
 }
 
 @media screen and (max-width:768px) {
-  .CardGrid{
+  .CardGrid {
     grid-template-columns: 1fr;
     grid-gap: 10px;
     grid-column-gap: 0px;
@@ -27,10 +27,11 @@
 }
 
 @keyframes CardStart {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
+  from {
+    opacity: 0;
   }
+
+  to {
+    opacity: 1;
+  }
+}

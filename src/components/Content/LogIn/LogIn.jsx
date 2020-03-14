@@ -3,10 +3,10 @@ import { NavLink } from 'react-router-dom'
 import './LogIn.css'
 import dataVisualization from '../../../assets/img/dataVisualization.svg'
 
-function LogIn (){
-    return(<div className='login'>
-      <div className='formField'>
-        <div className='formContent'>
+function LogIn() {
+  return (<div className='login'>
+    <div className='formField'>
+      <div className='formContent'>
         <h1>Вход</h1>
         <form>
           <label>
@@ -18,23 +18,23 @@ function LogIn (){
           <label>
             Пароль:
             <br />
-          <input type="password" name="password" placeholder='Введите Ваш пароль' />
+            <input type="password" name="password" placeholder='Введите Ваш пароль' />
           </label>
-          <br/>
+          <br />
           <NavLink to='/'><button>Вход</button></NavLink>
 
           <p>Забыли пароль?</p>
         </form>
-        </div>
       </div>
-       
-       <div className='loginImg'>
-         <img src={dataVisualization} alt="dataVisualization"/>
-       </div>
-       
+    </div>
 
-        </div>
-    )
+    <div className='loginImg'>
+      <img src={dataVisualization} alt="dataVisualization" />
+    </div>
+
+
+  </div>
+  )
 }
 
 export default LogIn
