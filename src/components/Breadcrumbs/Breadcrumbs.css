@@ -12,3 +12,9 @@
 
     color: #6694C6;
 }
+
+@media screen and (max-width:768px){
+    .Breadcrumbs{
+        display: none;
+    }
+}

@@ -16,8 +16,7 @@ const Notifications = lazy(() => import('./Notifications/Notifications'));
 const OrderList = lazy(() => import('./OrderList/OrderList'));
 
 function Content(){
-    return(
-        <div className='Content'>
+    return( <div className='Content'>
             <Breadcrumbs />
               <Suspense fallback={<div><img src={PreLoader} alt='Загрузка'></img></div>}>
                   <Switch>   
