@@ -60,3 +60,11 @@
     margin-top: 80px;
 }
 
+@media screen and (max-width:768px){
+    .AccountWrapper {
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+    }
+
+}
+
