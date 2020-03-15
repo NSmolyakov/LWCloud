@@ -65,6 +65,11 @@
         grid-template-columns: 1fr;
         grid-gap: 0px;
     }
-
+    .AccountWrapper {
+        text-align: center;
+    }
+    .AccountExit{
+        text-align: center;
+    }
 }
 
