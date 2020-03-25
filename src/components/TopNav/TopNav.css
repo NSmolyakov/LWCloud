@@ -11,48 +11,48 @@
 }
 
 
-.MobMenu{
+.MobMenu {
     display: none;
 }
 
 .Logo {
-    grid-area:'lg';
+    grid-area: 'lg';
     margin-top: 14px;
     margin-right: 104px;
 }
 
-.Navigation{
+.Navigation {
     grid-area: 'nv';
     margin-top: 16px;
     margin-right: 215px;
 }
 
-.NavBtns{
+.NavBtns {
     grid-area: 'nb';
     margin-top: 28px;
 }
 
-.NavElement{
+.NavElement {
     display: inline;
-    padding-left:10px;
+    padding-left: 10px;
 }
 
-.NavElement{
+.NavElement {
     display: inline-block;
-    width:80px;
+    width: 80px;
 }
 
-.NavElement img{
+.NavElement img {
     padding-left: 28px;
 }
 
-.NavElement:hover{
+.NavElement:hover {
     opacity: .75;
 }
 
-.NavElement a{
+.NavElement a {
     text-decoration: none;
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
@@ -63,18 +63,19 @@
     color: #EEEEEE;
 }
 
-.NavElement p{
+.NavElement p {
     margin: 4px 0;
 }
 
-.NavBtns img{
+.NavBtns img {
     padding-left: 36px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1020px) {
-    .Logo{
+    .Logo {
         margin-right: 60px;
     }
+
     .Navigation {
         margin-right: 16px;
     }
@@ -82,18 +83,22 @@
 
 
 @media screen and (max-width:768px) {
-    .TopNav{
-        grid-gap:19px;
+    .TopNav {
+        grid-gap: 19px;
     }
-    .MobMenu{
+
+    .MobMenu {
         display: inline-block;
     }
-    .Navigation{
+
+    .Navigation {
         display: none;
     }
-    .More{
+
+    .More {
         display: none;
     }
+
     .Logo {
         margin-right: 0;
     }
