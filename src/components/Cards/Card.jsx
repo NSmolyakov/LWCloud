@@ -5,16 +5,16 @@ import './Card.css'
 import { NavLink } from 'react-router-dom'
 
 
-function Card(props){
-    return(
-    <NavLink to={props.link}>
-    <div className='Card'>
-        <img src={Ellipse} className='Ellipse' alt='Ellipse'></img>
-        <img src={props.symbol} className='ListZakazov' alt='ListZakazov'></img>
-        <p className='CardTitle link'> {props.name}</p>
-        <p className='CardDiscription'> {props.discription} </p>
-    </div>
-    </NavLink>)
+function Card(props) {
+    return (
+        <NavLink to={props.link}>
+            <div className='Card'>
+                <img src={Ellipse} className='Ellipse' alt='Ellipse'></img>
+                <img src={props.symbol} className='ListZakazov' alt='ListZakazov'></img>
+                <p className='CardTitle link'> {props.name}</p>
+                <p className='CardDiscription'> {props.discription} </p>
+            </div>
+        </NavLink>)
 }
 
 export default Card
