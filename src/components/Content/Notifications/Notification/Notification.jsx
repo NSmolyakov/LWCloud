@@ -6,9 +6,9 @@ import RegistrasionPartner from '../../../../assets/img/Cards/RegistrasionPartne
 function Notification() {
     return(
         <div className='Notfication'>
-            <img src={Ellipse} className='Ellipse' alt='Ellipse'/>
-            <img src={RegistrasionPartner} className='ListZakazov' alt='ListZakazov' />
-            <p>Дистрибьютор 0008904114 успешно зарегистрирован в системе</p>
+            <img src={Ellipse}  alt='Ellipse'/>
+            <img src={RegistrasionPartner} alt='ListZakazov' />
+            <p>Дистрибьютор <strong>0008904114</strong> успешно зарегистрирован в системе</p>
         </div>
         
     )
