@@ -1,0 +1,7 @@
+.Notification p {
+    font-size: 12px;
+    line-height: 15px;
+    max-width: 200px;
+
+    color: #777777;
+}
